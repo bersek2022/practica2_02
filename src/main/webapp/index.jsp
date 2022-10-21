@@ -11,8 +11,8 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
-        <h1>Lista de Tareas</h1>
+        
+        <h1>!!!L I S T A --   D E ---    T A R E A S!!!! </h1>
  <a href="MainController?op=nuevo">Nuevo</a>
  <table border="1">
  <tr>

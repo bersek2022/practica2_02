@@ -11,8 +11,8 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
-        <h1><%= (item.getId() == 0)?"Nuevo Registro" : "Editar registro"%></h1>
+       
+        <h1><%= (item.getId() == 0)?"Nuevo Tarea" : "Editar Tarea"%></h1>
  <form action="MainController" method="post">
  <input type="hidden" name="id" value="<%= item.getId()%>"/>
  <table>
@@ -24,7 +24,7 @@
  <td>prioridad</td>
  <td><select name="pioridad">
  <option value ="alto">Alto</option>
- <option value ="alto">Medio</option>
+ <option value ="medio">Medio</option>
  <option value="bajo">Bajo</option><%= 
 item.getPrioridad()%>"</select>></td>
  </tr>
